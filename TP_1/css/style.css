@@ -1,0 +1,157 @@
+html {
+    max-width: 100%;
+}
+
+body {
+    background: #292727;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+.back_picture {
+    opacity: 60%;
+    position: absolute;
+    width: 110%;
+    height: 140%;
+    z-index: 1;
+}
+ 
+h1 {
+    padding-top: 2%;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    color: whitesmoke;
+    font-family: 'Lobster', cursive;
+    z-index: 2;
+    letter-spacing: 2px;
+}
+
+.h1_style{
+    font-weight: 800;
+    text-align: center;
+    color: #bd2616;
+    z-index: 2;
+    margin-right: -9px;
+}
+
+.input_div {
+    margin: auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    flex-wrap: wrap;
+}
+
+.input_div .input {
+    padding: 0.5rem 1rem;
+    height: 35px;
+    outline: none;
+    background-color: white;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+    z-index: 2;
+}
+
+.addButton {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #bd2616;
+    color: whitesmoke;
+    cursor: pointer;
+    margin: 0.25rem;
+    z-index: 2;
+}
+
+
+.addButton:hover{
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.clearbtn {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: rgb(112, 110, 110);
+    color: white;
+    cursor: pointer;
+    margin: 0.25rem;
+    z-index: 2;
+}
+
+.clearbtn:hover{
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.container {
+    margin-right: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    z-index: 2;
+}
+
+.Caracteristiques {
+    padding-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid white;
+    z-index: 2;
+    margin-left: 6.5%;
+}
+
+.Checked {
+    border-bottom: 2px solid lime;
+}
+
+.cara_input{
+    background: none;
+    padding-bottom: 0.7rem;
+    outline: none;
+    color:  white;
+    border: none;
+    width: 350px;
+    font-size: 1.4rem;
+    z-index: 2;
+}
+
+.editButton{
+    font-size: 1.4rem;
+    margin: 0 0.75rem;
+    background: none;
+    font-family: 'Baskervville', serif;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.removeButton{
+    font-size: 1.4rem;
+    margin: 0 0.75rem;
+    font-family: 'Baskervville', serif;
+    background: none;
+    outline: none;
+    color: #bd2616;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
